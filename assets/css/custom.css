@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Mei 15, 16:03:56
+    Author     : mssbinertekno
+*/
+.ace-nav>li.light-blue>a:hover, .ace-nav>li.light-blue>a:focus{
+    background-color: #4AAD5A!important;
+}
+.brackets{padding-top:20px;width:auto;}
+.user-info{width:100%;}
+a {color: #4AAD5A;}
+.breadcrumb>li>a {
+    display: inline-block;
+    padding: 0 4px;
+    color: #4AAD5A;
+}
+.widget-header {
+    color: #4AAD5A;
+}
+.table-header{
+    background-color: #4AAD5A;
+}
+.ace-nav>li.light-blue>a {
+    background-color: #87B87F;
+}
+.ace-nav>li.light-blue>a:hover{
+    background-color: #4AAD5A;
+}
+.ace-nav>li.open.light-blue>a {
+    background-color: #4AAD5A!important;
+}
+.dataTable th[class*=sort]{
+    color: #59B262;
+}
+.dataTable th[class*=sort]:hover{
+    color: #4AAD5A;
+}
+.dataTable th.sorting_asc:after, .dataTable th.sorting_desc:after{
+    color: #59B262;
+}
+.pagination>li.active>a, .pagination>li.active>a:hover {
+    background-color: #59B262;
+    border-color: #59B262;
+}
+.pagination>li>a, .pager>li>a{
+    color: #59B262;
+}
+#whitebg {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1999;
+    position: fixed;
+    background: rgba(255,255,255,0.5);
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+.spin {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+.ace-file-input .file-label:before {
+    background-color: #59B262;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+::-moz-selection {
+       background-color: #59B262;
+       color: #000;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #59B262;
+       color: #000;
+}
+.nav-list > li .submenu > li.active > a {
+    color: #4AAD5A;
+}
+.nav-list li.active>a:after {
+    border-right-color: #4AAD5A;
+}
+//tab
+//green
+.nav-tabs.tab-color-green>li>a,.nav-tabs.tab-color-green>li>a:focus{
+    background-color:#59B262
+}
+.nav-tabs[class*="tab-color-green"]>li.active>a:focus,.nav-tabs[class*="tab-color-"]>li.active>a:hover{
+    background-color:#FFF;color:#59B262;box-shadow:none
+}
+.nav-tabs[class*="tab-color-green"]>li>a{
+    background-color: #87B87F;
+}
+.nav-tabs.tab-color-green>li.active>a,.nav-tabs.tab-color-green>li.active>a:focus,.nav-tabs.tab-color-green>li.active>a:hover{
+    color:#59B262;border-color:#59B262 #59B262 transparent
+}
+.tabs-below .nav-tabs.tab-color-green>li.active>a{
+    border-color:transparent #59B262 #59B262
+}
+.nav-tabs.tab-color-green{
+    border-bottom-color:#c5d0dc
+}
+.nav-tabs.background-green{
+    padding-top:6px;background-color:#59B262;border:1px solid #c5d0dc
+}
+.tabs-below .nav-tabs.background-green{
+    padding-top:0;padding-bottom:6px
+}
+.tabs-below .nav-tabs.tab-color-green{
+    border-top:0;border-bottom-color:#c5d0dc
+}
